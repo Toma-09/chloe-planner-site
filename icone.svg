@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="1024" height="1024">
+  <!-- Icône de Chloé Planner : même dessin que le logo de la barre latérale
+       (src/renderer/coquille/Icones.tsx). Les PNG voisins en sont tirés une fois. -->
+  <defs>
+    <linearGradient id="degrade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7a73ff" />
+      <stop offset="1" stop-color="#00b4d8" />
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="11" fill="url(#degrade)" />
+  <path d="M20 7c1 6.4 2.6 8 9 9-6.4 1-8 2.6-9 9-1-6.4-2.6-8-9-9 6.4-1 8-2.6 9-9Z" fill="#fff" transform="translate(0 4)" />
+  <circle cx="29.5" cy="11" r="1.6" fill="#fff" opacity="0.85" />
+</svg>
